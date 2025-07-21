@@ -1,0 +1,10 @@
+name = "PETTheory"
+version = "0.1.0"
+defaultTargets = ["pettheory"]
+
+[[lean_lib]]
+name = "PETTheory"
+
+[[lean_exe]]
+name = "pettheory"
+root = "Main"
