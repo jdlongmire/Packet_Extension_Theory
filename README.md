@@ -3,7 +3,9 @@
 **Information Density Dynamics in Quantum Mechanics**
 
 [![Lean 4](https://img.shields.io/badge/Lean-4-blue.svg)](https://leanprover.github.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16281983.svg)](https://doi.org/10.5281/zenodo.16281983)
+[![Papers: CC BY-NC-ND 4.0](https://img.shields.io/badge/Papers-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Code: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![arXiv](https://img.shields.io/badge/arXiv-pending-red.svg)](https://arxiv.org/)
 
 ## Overview
@@ -157,21 +159,74 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## Citation
 
-If you use this work in your research, please cite:
+If you use this work in your research, please cite appropriately based on the component used:
 
+### Complete Repository (Zenodo Archive)
+```bibtex
+@software{longmire2025pet_zenodo,
+  author       = {Longmire, James (JD)},
+  title        = {Packet Extension Theory: Information Density 
+                  Dynamics in Quantum Mechanics},
+  year         = 2025,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.16281983},
+  url          = {https://doi.org/10.5281/zenodo.16281983}
+}
+```
+
+### Theory Papers (CC BY-NC-ND 4.0)
 ```bibtex
 @misc{longmire2025pet,
   title={Packet Extension Theory: Information Density Dynamics in Quantum Mechanics},
   author={Longmire, James D.},
   year={2025},
-  url={https://github.com/username/packet-extension-theory},
-  note={In preparation}
+  url={https://github.com/jdlongmire/Packet_Extension_Theory},
+  note={In preparation},
+  license={CC BY-NC-ND 4.0}
+}
+```
+
+### Code Implementation (MIT License)
+```bibtex
+@software{longmire2025pet_code,
+  title={PET Theory: Lean 4 Formalization and Numerical Implementation},
+  author={Longmire, James D.},
+  year={2025},
+  url={https://github.com/jdlongmire/Packet_Extension_Theory/tree/main/lean4},
+  license={MIT}
 }
 ```
 
 ## License
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+This repository uses **dual licensing** to balance theoretical protection with collaborative development:
+
+### Theory Papers and Documentation
+**CC BY-NC-ND 4.0** - [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+- **`papers/`** - All research papers, position papers, and theoretical documents
+- **`docs/`** - Documentation and explanatory materials
+- **`README.md`** - This documentation
+
+*Protects academic integrity while allowing academic use and citation*
+
+### Code and Technical Implementation  
+**MIT License** - [Massachusetts Institute of Technology License](https://opensource.org/licenses/MIT)
+
+- **`lean4/`** - All Lean 4 formalization code and proofs
+- **`simulations/`** - Numerical implementations and computational tools
+- **`tools/`** - Development utilities and scripts
+
+*Enables open collaboration and community contributions to technical development*
+
+### Experimental Protocols
+**CC BY-SA 4.0** - [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
+
+- **`experiments/`** - Experimental designs and measurement protocols
+
+*Allows adaptation while ensuring improvements remain open to the research community*
+
+For commercial licensing inquiries regarding theory papers, please contact the author through GitHub Issues.
 
 ## Contact and Community
 
@@ -185,8 +240,8 @@ Northrop Grumman Fellow (unaffiliated research)
 ### Contact
 For questions, collaborations, or discussions about formalization efforts, please open an issue or start a discussion on this repository.
 
-- **Issues**: [GitHub Issues](https://github.com/username/packet-extension-theory/issues) for bug reports and feature requests
-- **Discussions**: [GitHub Discussions](https://github.com/username/packet-extension-theory/discussions) for theoretical questions
+- **Issues**: [GitHub Issues](https://github.com/jdlongmire/Packet_Extension_Theory/issues) for bug reports and feature requests
+- **Discussions**: [GitHub Discussions](https://github.com/jdlongmire/Packet_Extension_Theory/discussions) for theoretical questions
 
 ### Community Links
 - **Lean Zulip**: Join the formal verification community
