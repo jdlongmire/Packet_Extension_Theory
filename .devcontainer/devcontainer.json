@@ -1,0 +1,15 @@
+{
+  "name": "Lean 4 Dev",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/leanprover/lean4-devcontainer-feature/lean4": "latest"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "leanprover.lean4"
+      ]
+    }
+  },
+  "postCreateCommand": "lake update || true && lake build || true"
+}
