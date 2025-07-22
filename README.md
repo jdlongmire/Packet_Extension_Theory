@@ -6,7 +6,21 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16281983.svg)](https://doi.org/10.5281/zenodo.16281983)
 [![Papers: CC BY-NC-ND 4.0](https://img.shields.io/badge/Papers-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![arXiv](https://img.shields.io/badge/arXiv-pending-red.svg)](https://arxiv.org/)
+
+
+## Updated Results Paper, 07-21-2025 | AI-Accelerated Development from Theory to Hardware Implementation: Experimental Framework for Testing Information-Dependent Quantum Decoherence
+
+This paper introduces **Packet Extension Theory (PET)**—an information-theoretic extension to quantum mechanics that predicts quantum decoherence rates depend on the information content of quantum states, not just environmental interactions. The entire research cycle, from theoretical conception to experimental quantum hardware tests, was developed in just 16 hours using an AI-accelerated workflow (ChatGPT, Claude, GitHub Copilot) and Lean 4 for formalization.
+
+Key features:
+- **Rapid, end-to-end AI-assisted pipeline:** Theory development, Lean 4 formal verification, code generation, and IBM Quantum experiments.
+- **Formalized and testable predictions:** PET proposes that coherence times (T2*) systematically vary with quantum state complexity (via Fisher information).
+- **Reproducible open science:** Full mathematical proofs, code, experimental protocols, and results are available.
+- **Clear limitations and next steps:** Includes analysis of hardware precision gaps and methodological transparency.
+
+Read the full paper here:  
+👉 [AI-Accelerated_Theory_to_Hardware.md](https://github.com/jdlongmire/Packet_Extension_Theory/blob/main/AI-Accelerated_Theory_to_Hardware.md)
+
 
 ## Overview
 
