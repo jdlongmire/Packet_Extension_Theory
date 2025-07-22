@@ -80,14 +80,12 @@ python gaussian_packet_evolution.py
 - [x] Core predictions identification
 - [x] Shannon universality connection
 - [x] Repository structure setup
-
-### 🚧 In Progress
 - [x] Lean 4 formalization of core theory
 - [x] Gaussian packet implementation
 - [x] Experimental proposal development
 - [x] Theory and methods paper preparation
 
-### 📋 Planned
+### 📋 In Progress/Planned
 - [ ] QFT extension formalization
 - [ ] High-energy physics predictions
 - [ ] Cosmological implications
