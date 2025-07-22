@@ -73,22 +73,6 @@ pip install -r requirements.txt
 python gaussian_packet_evolution.py
 ```
 
-## Repository Structure
-
-```
-packet-extension-theory/
-├── lean4/                       # Formal mathematical verification
-│   └── PETTheory/              # Core theory modules
-├── papers/                      # Research papers and preprints
-│   ├── core-theory/            # Main PET paper
-│   ├── qft-extensions/         # QFT/Standard Model extensions
-│   └── shannon-universality/   # Information theory connection
-├── experiments/                 # Experimental proposals
-├── simulations/                # Numerical implementations
-├── docs/                       # Documentation and tutorials
-└── tools/                      # Development utilities
-```
-
 ## Current Development Status
 
 ### ✅ Completed
@@ -256,12 +240,5 @@ For questions, collaborations, or discussions about formalization efforts, pleas
 
 - **Issues**: [GitHub Issues](https://github.com/jdlongmire/Packet_Extension_Theory/issues) for bug reports and feature requests
 - **Discussions**: [GitHub Discussions](https://github.com/jdlongmire/Packet_Extension_Theory/discussions) for theoretical questions
-
-### Community Links
-- **Lean Zulip**: Join the formal verification community
-- **Physics Forums**: Quantum foundations discussions
-- **arXiv**: Preprint submissions and updates
-
----
 
 **Note**: This is active research in theoretical physics. While the mathematical framework is being rigorously developed, experimental confirmation is required to validate the theory's predictions.
