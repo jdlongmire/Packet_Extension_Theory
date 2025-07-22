@@ -98,10 +98,10 @@ packet-extension-theory/
 - [x] Repository structure setup
 
 ### 🚧 In Progress
-- [ ] Lean 4 formalization of core theory
-- [ ] Gaussian packet implementation
-- [ ] Experimental proposal development
-- [ ] Main theory paper preparation
+- [x] Lean 4 formalization of core theory
+- [x] Gaussian packet implementation
+- [x] Experimental proposal development
+- [x] Theory and methods paper preparation
 
 ### 📋 Planned
 - [ ] QFT extension formalization
